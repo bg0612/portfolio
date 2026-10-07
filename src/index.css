@@ -1,2 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600;700&display=swap');
-:root{font-family:'DM Sans','Noto Sans TC',sans-serif;color:#f4f7f5;background:#0b0e0d;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;--ink:#f4f7f5;--muted:#9ba4a0;--line:rgba(255,255,255,.14);--acid:#a9ff5c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:320px;min-height:100vh;background:#0b0e0d}body.menu-open{overflow:hidden}button,a{font:inherit}a,button{color:inherit}::selection{background:var(--acid);color:#0b0e0d}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+:root {
+  font-family: 'DM Sans', 'Noto Sans TC', sans-serif;
+  color: #17233b;
+  background: #f7f8fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --navy: #17233b;
+  --blue: #315fbd;
+  --pale-blue: #e9effb;
+  --paper: #f7f8fa;
+  --white: #ffffff;
+  --muted: #687187;
+  --line: #dce1ea;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--paper); }
+button, a { font: inherit; color: inherit; }
+::selection { background: #cfdcf7; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
